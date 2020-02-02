@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5955c97d-58cf-4179-9685-728725f0faf3" name="Default Changelist" comment="" />
+    <list default="true" id="5955c97d-58cf-4179-9685-728725f0faf3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/count.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/count.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580653309803</updated>
-      <workItem from="1580653315001" duration="5347000" />
+      <workItem from="1580653315001" duration="6714000" />
     </task>
     <servers />
   </component>

@@ -11,5 +11,10 @@
     <h1>This is the count page</h1>
     <p>There were {{ data }} words in that sentence</p>
     <p>The sentence passed in was: "{{ original }}"</p>
+
+    {% for word, count_total in dict %}
+        <p>Word: "{{ word.capitalize }}" appears {{ count_total }} time(s)</p>
+    {% endfor %}
+
 </body>
 </html>
