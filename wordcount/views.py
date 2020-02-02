@@ -24,3 +24,7 @@ def count(req):
         'original': req.GET['fulltext'],
         'dict': wordcount.items()
     })
+
+
+def about(req):
+    return render(req, 'about.html')

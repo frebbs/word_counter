@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>This is the homepage template</h1>
+    <a href="{% url 'about' %}">About this site</a>
     <p>The user who created this is {{ name }} and is currently learning Django</p>
     <h2>Word Counter</h2>
     <form action="{% url 'count' %}">
