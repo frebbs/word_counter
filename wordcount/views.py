@@ -11,5 +11,6 @@ def home(req):
 def count(req):
     print(req.GET)
     return render(req, 'count.html', {
-        'data': len(req.GET['fulltext'].split())
+        'data': len(req.GET['fulltext'].split()),
+        'original': req.GET['fulltext']
     })
