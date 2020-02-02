@@ -10,5 +10,10 @@
 <body>
     <h1>This is the homepage template</h1>
     <p>The user who created this is {{ name }} and is currently learning Django</p>
+    <h2>Word Counter</h2>
+    <form action="{% url 'count' %}">
+        <textarea cols="40" rows="5" name="fulltext"></textarea><br>
+        <input type="submit" value="Count!" />
+    </form>
 </body>
 </html>

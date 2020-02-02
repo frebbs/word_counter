@@ -8,5 +8,8 @@ def home(req):
     })
 
 
-def about(req):
-    return HttpResponse('<h1>This is the about page</h1>')
+def count(req):
+    print(req.GET)
+    return render(req, 'count.html', {
+        'data': len(req.GET['fulltext'])
+    })
